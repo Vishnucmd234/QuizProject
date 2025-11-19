@@ -33,31 +33,8 @@ questions = [
         "options": ["Akbar", "Shah Jahan", "Aurangzeb", "Jahangir"],
         "answer": "Shah Jahan"
     },
-    {
-        "question": "Who was the first President of India?",
-        "options": ["Jawaharlal Nehru", "Rajendra Prasad", "Sardar Patel", "Lal Bahadur Shastri"],
-        "answer": "Rajendra Prasad"
-    },
-    {
-        "question": "The Battle of Plassey was fought in which year?",
-        "options": ["1757", "1764", "1782", "1799"],
-        "answer": "1757"
-    },
-    {
-        "question": "Who founded the Maurya Empire?",
-        "options": ["Ashoka", "Bindusara", "Chandragupta Maurya", "Bimbisara"],
-        "answer": "Chandragupta Maurya"
-    },
-    {
-        "question": "Who discovered the sea route to India?",
-        "options": ["Christopher Columbus", "Vasco da Gama", "Ferdinand Magellan", "Marco Polo"],
-        "answer": "Vasco da Gama"
-    },
-    {
-        "question": "Who was the first Prime Minister of India?",
-        "options": ["Mahatma Gandhi", "Jawaharlal Nehru", "Indira Gandhi", "Sardar Patel"],
-        "answer": "Jawaharlal Nehru"
-    },
+    
+   
     {
         "question": "Harappa Civilization is also known as?",
         "options": ["Indus Valley Civilization", "Egyptian Civilization", "Mesopotamian Civilization", "Chinese Civilization"],
@@ -77,41 +54,9 @@ questions = [
         "options": ["5", "6", "7", "8"],
         "answer": "6"
     },
-    {
-        "question": "Who appoints the Prime Minister of India?",
-        "options": ["President", "Chief Justice", "Lok Sabha Speaker", "Rajya Sabha Chairperson"],
-        "answer": "President"
-    },
-    {
-        "question": "What is the minimum age to become the President of India?",
-        "options": ["25 years", "30 years", "35 years", "40 years"],
-        "answer": "35 years"
-    },
-    {
-        "question": "Which article deals with the Right to Equality?",
-        "options": ["Article 14", "Article 19", "Article 21", "Article 32"],
-        "answer": "Article 14"
-    },
-    {
-        "question": "India has a ______ form of government.",
-        "options": ["Monarchy", "Dictatorship", "Parliamentary Democracy", "Presidential System"],
-        "answer": "Parliamentary Democracy"
-    },
-    {
-        "question": "In India, the Council of Ministers is headed by?",
-        "options": ["President", "Prime Minister", "Chief Justice", "Lok Sabha Speaker"],
-        "answer": "Prime Minister"
-    },
-    {
-        "question": "Which is the upper house of the Indian Parliament?",
-        "options": ["Lok Sabha", "Vidhan Sabha", "Rajya Sabha", "Zila Parishad"],
-        "answer": "Rajya Sabha"
-    },
-    {
-        "question": "How many members are nominated by the President to Rajya Sabha?",
-        "options": ["2", "8", "10", "12"],
-        "answer": "12"
-    },
+   
+    
+    
     {
         "question": "Who is the head of the Indian State?",
         "options": ["Prime Minister", "Chief Minister", "President", "Home Minister"],
@@ -124,26 +69,7 @@ questions = [
         "options": ["Germany", "Italy", "Brazil", "Argentina"],
         "answer": "Brazil"
     },
-    {
-        "question": "Who is known as the 'God of Cricket'?",
-        "options": ["Virat Kohli", "Sachin Tendulkar", "MS Dhoni", "Ricky Ponting"],
-        "answer": "Sachin Tendulkar"
-    },
-    {
-        "question": "How many players are there in a cricket team?",
-        "options": ["9", "10", "11", "12"],
-        "answer": "11"
-    },
-    {
-        "question": "Which sport uses the term 'Deuce'?",
-        "options": ["Football", "Basketball", "Tennis", "Hockey"],
-        "answer": "Tennis"
-    },
-    {
-        "question": "In which country were the first Olympic Games held?",
-        "options": ["Italy", "France", "Greece", "USA"],
-        "answer": "Greece"
-    },
+    
     {
         "question": "Who holds the record for the most goals in international football?",
         "options": ["Pelé", "Lionel Messi", "Cristiano Ronaldo", "Neymar"],
@@ -154,16 +80,7 @@ questions = [
         "options": ["Sri Lanka", "India", "Australia", "England"],
         "answer": "India"
     },
-    {
-        "question": "How many minutes are there in a football match?",
-        "options": ["60", "80", "90", "100"],
-        "answer": "90"
-    },
-    {
-        "question": "Which athlete is known as the fastest man in the world?",
-        "options": ["Usain Bolt", "Carl Lewis", "Tyson Gay", "Yohan Blake"],
-        "answer": "Usain Bolt"
-    },
+   
     {
         "question": "Which sport is Michael Jordan famous for?",
         "options": ["Cricket", "Basketball", "Baseball", "Athletics"],
@@ -171,21 +88,7 @@ questions = [
     },
 #Economics Quiz Questions
 
-    {
-        "question": "What is the study of how people use limited resources to satisfy unlimited wants?",
-        "options": ["Sociology", "Economics", "Geography", "Psychology"],
-        "answer": "Economics"
-    },
-    {
-        "question": "What does GDP stand for?",
-        "options": ["Gross Domestic Product", "Government Development Plan", "General Domestic Policy", "Gross Demand Percentage"],
-        "answer": "Gross Domestic Product"
-    },
-    {
-        "question": "Which of the following is a 'want' and not a 'need'?",
-        "options": ["Food", "Water", "Clothing", "Smartphone"],
-        "answer": "Smartphone"
-    },
+   
     {
         "question": "Which market structure features a single seller?",
         "options": ["Perfect Competition", "Monopoly", "Oligopoly", "Monopolistic Competition"],
@@ -203,21 +106,7 @@ questions = [
     "options": ["243", "162", "324", "200"],
     "answer": "243"
 },
-{
-    "question": "4, 7, 12, 19, 28, ?",
-    "options": ["39", "40", "42", "44"],
-    "answer": "40"
-},
-{
-    "question": "2, 5, 10, 17, 26, ?",
-    "options": ["35", "38", "40", "42"],
-    "answer": "37"
-},
-{
-    "question": "1, 4, 9, 16, 25, ?",
-    "options": ["30", "32", "36", "40"],
-    "answer": "36"
-},
+
 {
     "question": "7, 14, 28, 56, ?",
     "options": ["84", "100", "112", "128"],
@@ -237,10 +126,6 @@ questions = [
 
 
 ]
-
-
-# ---- Add more questions and make list 100 ----
-
 
 score = 0
 total_attempted = 0  
