@@ -1,3 +1,5 @@
+
+
 import tkinter as tk
 from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
@@ -338,5 +340,6 @@ quiz_exit_btn = tk.Button(root, text="Exit Game", font=("Helvetica", 12), bg="#d
 
 start_btn = tk.Button(root, text="Start Quiz", font=("Helvetica", 18, "bold"), bg="#428bca", fg="white", command=start_quiz)
 start_btn.pack(pady=200)
+
 
 root.mainloop()
