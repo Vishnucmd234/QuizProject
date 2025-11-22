@@ -32,11 +32,11 @@ result_btn_frame = None
 start_btn = None
 intermission_frame = None
 quiz_exit_btn = None
-feedback_image_label = None # feedback_image_label वापस जोड़ा गया है
+feedback_image_label = None 
 
 # --- AUDIO VARIABLES ---
 try:
-    # केवल GAMEOVER_MUSIC को लोड करें, WAV फ़ाइल का उपयोग करें
+    
     GAMEOVER_MUSIC = pygame.mixer.Sound("gameover.wav")
     
     class DummySound:
@@ -50,7 +50,7 @@ except Exception as e:
     GAMEOVER_MUSIC = DummySound()
     print(f"Audio files could not be loaded. Ensure 'gameover.wav' is present. Error: {e}")
 
-# DUMMY QUESTIONS (आप अपनी प्रश्न सूची से बदलें)
+# DUMMY QUESTIONS 
 questions = [
     {"question": "What is the capital of France?", "options": ["Berlin", "Madrid", "Paris", "Rome"], "answer": "Paris"},
     {"question": "What is 2 + 2?", "options": ["3", "4", "5", "6"], "answer": "4"},
@@ -95,14 +95,14 @@ def start_quiz():
         result_btn_frame.destroy()
     if intermission_frame:
         intermission_frame.destroy()
-    if feedback_image_label: # इमेज लेबल को नष्ट करें यदि वह मौजूद है
+    if feedback_image_label: 
         feedback_image_label.destroy()
         
-    # Start button chupao
+    # Start button 
     if start_btn:
         start_btn.pack_forget()
     
-    # Quiz Exit button dikhao
+    # Quiz Exit button 
     if quiz_exit_btn:
         quiz_exit_btn.pack(pady=10)
     
@@ -118,7 +118,7 @@ def start_quiz():
 def show_question():
     global elapsed_time, timer_id, q_index
     
-    # Widgets ko wapis dikhao
+    
     question_label.pack(pady=20)
     for btn in option_buttons:
         btn.pack(pady=5)
@@ -231,7 +231,7 @@ def next_question():
 def end_quiz():
     global canvas, result_label, result_btn_frame, intermission_frame, question_times, total_time_taken, quiz_exit_btn, feedback_image_label, q_index
     
-    # 📢 Game Over संगीत चलाओ
+    
     GAMEOVER_MUSIC.play() 
     
     if intermission_frame:
@@ -244,7 +244,6 @@ def end_quiz():
     
     attempted_questions = q_index
         
-    # Quiz widgets hide
     question_label.pack_forget()
     for btn in option_buttons:
         btn.pack_forget()
@@ -274,13 +273,13 @@ def end_quiz():
     canvas.draw()
     canvas.get_tk_widget().pack(pady=10)
     
-    # --- FEEDBACK IMAGE LOGIC (वापस जोड़ा गया) ---
+    # --- FEEDBACK IMAGE LOGIC ---
     image_path = ""
-    # सुनिश्चित करें कि attempted_questions 0 न हो, अन्यथा डिवीजन बाय जीरो एरर होगा
+    
     if attempted_questions > 0:
         performance_percentage = (score / attempted_questions) * 100 
     else:
-        performance_percentage = 0 # यदि कोई प्रश्न हल नहीं हुआ तो 0%
+        performance_percentage = 0 
         
     if performance_percentage >= 50:
         image_path = "thumbs_up.jpeg" 
